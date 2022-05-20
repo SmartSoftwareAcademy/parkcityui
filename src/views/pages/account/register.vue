@@ -148,7 +148,7 @@ export default {
           <div class="col-lg-12">
             <div class="text-center">
               <router-link to="/" class="mb-5 d-block auth-logo">
-                <h1>Eboda</h1>
+                <h1>ParkCity</h1>
               </router-link>
             </div>
           </div>
