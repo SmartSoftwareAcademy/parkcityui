@@ -4,7 +4,7 @@
 //             Changeorigin: true // proxy
 //         }
 //     }, // set the proxy,
-module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ?
-        '/MyCity/' : '/'
-}
+// module.exports = {
+//     publicPath: process.env.NODE_ENV === 'production' ?
+//         '/MyCity/' : '/'
+// }
