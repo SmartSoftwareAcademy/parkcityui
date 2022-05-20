@@ -42,55 +42,53 @@ export default {};
                 </li>
                 <li class="feed-item">
                     <p class="text-muted mb-1 font-size-13">
-                        22 Jul, 2020
+                        19 May, 2022
                         <small class="d-inline-block ms-1">12:36 pm</small>
                     </p>
                     <p class="mt-0 mb-0">
-                        Andrei Coman posted a new article:
+                        New parking lot booking request at City Squre by:
                         <span class="text-primary">Designer Alex</span>
                     </p>
                 </li>
                 <li class="feed-item">
                     <p class="text-muted mb-1 font-size-13">
-                        18 Jul, 2020
+                        19 May, 2022
                         <small class="d-inline-block ms-1">07:56 am</small>
                     </p>
                     <p class="mt-0 mb-0">
-                        Zack Wetass, sed porta finibus, risus Chris Wallace
-                        Commented
+                       New client comment on parking 
                         <span class="text-primary">Developer Moreno</span>
                     </p>
                 </li>
                 <li class="feed-item">
                     <p class="text-muted mb-1 font-size-13">
-                        10 Jul, 2020
+                        19 May, 2022
                         <small class="d-inline-block ms-1">08:42 pm</small>
                     </p>
                     <p class="mt-0 mb-0">
-                        Zack Wetass, Chris combined Commented
-                        <span class="text-primary">UX Murphy</span>
+                        Pending parking fee invoice ref:
+                        <span class="text-primary">G655HdJU9C</span>
                     </p>
                 </li>
 
                 <li class="feed-item">
                     <p class="text-muted mb-1 font-size-13">
-                        23 Jun, 2020
+                        19 May, 2022
                         <small class="d-inline-block ms-1">12:22 am</small>
                     </p>
                     <p class="mt-0 mb-0">
-                        Zack Wetass, sed porta finibus, risus Chris Wallace
-                        Commented
-                        <span class="text-primary">Developer Moreno</span>
+                        Parking reserve request approved ref:
+                        <span class="text-primary">G655HdJU9C</span>
                     </p>
                 </li>
                 <li class="feed-item pb-1">
                     <p class="text-muted mb-1 font-size-13">
-                        20 Jun, 2020
+                        18 May, 2022
                         <small class="d-inline-block ms-1">09:48 pm</small>
                     </p>
                     <p class="mt-0 mb-0">
-                        Zack Wetass, Chris combined Commented
-                        <span class="text-primary">UX Murphy</span>
+                       Parking slot update at City Squre by
+                        <span class="text-primary">City Admin</span>
                     </p>
                 </li>
             </ol>

@@ -291,12 +291,14 @@ export default {
           </router-link>
 
           <router-link to="/" class="logo logo-light">
-            <span class="logo-sm">
-              <img src="@/assets/images/logo-sm.png" alt height="22" />
-            </span>
-            <span class="logo-lg text-white-50 mt-4">
-                <h1 class="logo-lg text-white-50 mt-4">ParkCity</h1>
-            </span>
+            <div class="container d-flex flex-row">
+              <span class="logo-xl col">
+                <img src="@/assets/parking-3.png" alt="" class="" height="50" />
+              </span>
+              <span class="logo-lg text-white col">
+                <h1 class="logo-lg text-white mt-4">ParkCity</h1>
+              </span>
+            </div>
           </router-link>
         </div>
 
@@ -311,7 +313,7 @@ export default {
         </button>
 
         <!-- App Search-->
-        <form class="app-search d-none d-lg-block">
+        <form class="app-search d-none" >
           <div class="position-relative">
             <input
               type="text"
@@ -353,7 +355,7 @@ export default {
           </form>
         </b-dropdown>
 
-        <b-dropdown variant="white" right toggle-class="header-item">
+        <!--  <b-dropdown variant="white" right toggle-class="header-item">
           <template v-slot:button-content>
             <img class :src="flag" alt="Header Language" height="16" />
             {{ text }}
@@ -374,7 +376,7 @@ export default {
             />
             <span class="align-middle">{{ entry.title }}</span>
           </b-dropdown-item>
-        </b-dropdown>
+        </b-dropdown> -->
 
         <b-dropdown
           variant="white"
@@ -595,12 +597,12 @@ export default {
           <template v-slot:button-content>
             <img
               class="rounded-circle header-profile-user"
-              src="@/assets/images/users/avatar-4.jpg"
+              src="@/assets/parking-3.png"
               alt="Header Avatar"
             />
             <span
               class="d-none d-xl-inline-block ms-1 fw-medium font-size-15"
-              >{{ $t("navbar.dropdown.marcus.text") }}</span
+              >{{ $t("Admin") }}</span
             >
             <i class="uil-angle-down d-none d-xl-inline-block font-size-15"></i>
           </template>
@@ -670,7 +672,10 @@ export default {
     <div class="container-fluid bg-success">
       <div class="topnav bg-success text-white">
         <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
-          <div class="collapse navbar-collapse text-white" id="topnav-menu-content">
+          <div
+            class="collapse navbar-collapse text-white"
+            id="topnav-menu-content"
+          >
             <ul class="navbar-nav text-white">
               <li
                 class="nav-item dropdown text-white
@@ -707,7 +712,6 @@ export default {
                 >
                   <template v-for="(subitem, index) of item.subItems">
                     <router-link
-           
                       :key="index"
                       class="col dropdown-item side-nav-link-ref"
                       v-if="!hasItems(subitem)"

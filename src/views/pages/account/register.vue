@@ -137,12 +137,7 @@ export default {
 
 <template>
   <div>
-    <div class="home-btn d-none d-sm-block bg-secondary bg-gradient">
-      <router-link to="/" class="text-dark">
-        <i class="mdi mdi-home-variant h2"></i>
-      </router-link>
-    </div>
-    <div class="account-pages my-5 pt-sm-5 bg-secondary bg-gradient">
+    <div class="account-pages my-5 pt-sm-5 bg-light bg-gradient">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -159,7 +154,7 @@ export default {
               <div class="card-body p-4 bg-success bg-gradient">
                 <div class="text-center mt-2">
                   <h5 class="text-primary">Register Account</h5>
-                  <p class="text-muted">Get your free Eboda account now.</p>
+                  <p class="text-muted">Get your free ParkCity account now.</p>
                 </div>
                 <div class="p-2 mt-4">
                   <div
@@ -312,8 +307,8 @@ export default {
             </div>
             <div class="mt-5 text-center">
               <p>
-                © {{ new Date().getFullYear() }} Minible. Crafted with
-                <i class="mdi mdi-heart text-danger"></i> by Themesbrand
+                © {{ new Date().getFullYear() }} ParkCity. Crafted with
+                <i class="mdi mdi-heart text-danger"></i> by CodeBuddies
               </p>
             </div>
           </div>

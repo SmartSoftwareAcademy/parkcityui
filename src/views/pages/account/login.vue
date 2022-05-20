@@ -99,12 +99,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-secondary bg-gradient">
-    <div class="home-btn d-none d-sm-block">
-      <router-link to="/" class="text-dark">
-        <i class="mdi mdi-home-variant h2"></i>
-      </router-link>
-    </div>
+  <div class="bg-light m-0">
     <div class="account-pages my-5 pt-sm-5">
       <div class="container">
         <div class="row">
@@ -122,7 +117,7 @@ export default {
               <div class="card-body p-4 bg-success bg-gradient">
                 <div class="text-center mt-2">
                   <h5 class="text-primary">Welcome Back !</h5>
-                  <p class="text-muted">Sign in to continue to Eboda.</p>
+                  <p class="text-muted">Sign in to continue to ParkCity.</p>
                 </div>
                 <div class="p-2 mt-4">
                   <b-alert
