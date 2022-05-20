@@ -38,7 +38,7 @@ Axios.interceptors.request.use(
     }
 );
 
-window.$http = "http://127.0.0.1:8000/citypark/"; //https://cityparkapi1.herokuapp.com/citypark/
+window.$http = "http://127.0.0.1:8000/citypark/"; //https://cityparkapi1.herokuapp.com/citypark/ https://cityparkapi1.herokuapp.com/citypark/users/ http://127.0.0.1:8000/citypark/
 //window.$headers = { Authorization: "Bearer ffa8629b3264d4fe0d0d7ed524600aecfe4c2961", };
 var CryptoJS = require("crypto-js");
 var tokenString = "";

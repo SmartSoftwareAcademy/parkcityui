@@ -282,9 +282,9 @@ export default {
         <!-- LOGO -->
         <div class="navbar-brand-box">
           <router-link to="/" class="logo logo-dark">
-            <span class="logo">
-              <img src="@/assets/parkcitylogo.jpg" alt height="22" />
-            </span>
+            <span class="logo-xl col">
+                <img src="@/assets/parking-3.png" alt="" class="" height="50" />
+              </span>
             <span class="logo-lg">
               <img src="@/assets/images/logo-dark.png" alt height="20" />
             </span>
