@@ -1,4 +1,4 @@
-# minible
+# ParkCity Client
 
 ## Project setup
 ```
